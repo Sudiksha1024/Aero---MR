@@ -2,9 +2,9 @@ import express from 'express';
 // Note: If this fails, try: import * as express from 'express';
 
 import cors from 'cors';
-import { errorHandler } from './middleware/errorHandler.js';
-import sessionRoutes from './routes/sessionRoutes.js';
-import analyticsRoutes from './routes/analyticsRoutes.js';
+import { errorHandler } from './errorHandler.js';
+import sessionRoutes from './sessionRoutes.js';
+import analyticsRoutes from './analyticsRoutes.js';
 
 const app = express();
 
